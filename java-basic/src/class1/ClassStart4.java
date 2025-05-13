@@ -20,9 +20,8 @@ public class ClassStart4 {
         Student[] students = new Student[2];
         students[0] = student1;
         students[1] = student2;
-
         System.out.println("이름: " + students[0].name + " 나이: " + students[0].age + " 성적: " + students[0].grade);
-    }
+        }
 }
 
 // ⭐️ 자바에서 대입은 항상 변수에 들어 있는 값을 복사한다.
